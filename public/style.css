@@ -1,0 +1,74 @@
+/* public/styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.chat-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.chat-messages {
+    height: 290px;
+    overflow-y: scroll;
+    border-radius: 5px;
+}
+
+#message-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#send-button {
+    display: block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #364049;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#send-button:hover {
+    background-color: #202930;
+  }
+
+.message-el {
+    background-color: #F5F5F5;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 14px;;
+  }
